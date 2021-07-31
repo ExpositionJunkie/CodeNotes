@@ -1,0 +1,11 @@
+mapStateToProps
+can technically be named anything but is normally named this
+
+mapDispatchToProps
+Can shorten anything that is the same on both sides to just it's value
+ex:
+postComment: (campsiteId, rating, author, text) => postComment(campsiteId, rating, author, text),
+
+shortens to
+
+postComment,

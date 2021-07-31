@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"  />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    
+    <title>Table Demo</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>Table Demo</h1>
+    </div>
+    <div class="table-responsive">
+    <table class="table table-striped table-light">
+        <thead class="thead-dark">
+            <tr>
+                <th>Breakpoint</th>
+                <th>Extra Small</th>
+                <th>Small</th>
+                <th>Medium</th>
+                <th>Large</th>
+                <th>Extra Large</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Viewport Width</th>
+
+                <td>&lt;576px</td>
+                <td>&ge;576px</td>
+                <td>&ge;768px</td>
+                <td>&ge;992px</td>
+                <td>&ge;1200px</td>
+            </tr>
+            <tr>
+                <th>Column Class Prefix</th>
+                <td>.col-</td>
+                <td>.col-sm</td>
+                <td>.col-md</td>
+                <td>.col-lg</td>
+                <td>.col-xl</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
